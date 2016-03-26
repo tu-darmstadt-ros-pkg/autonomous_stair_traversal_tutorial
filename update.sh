@@ -62,6 +62,14 @@ wstool merge default_packages.rosinstall
 
 wstool update
 
+#remove unused pkgs
+rm -r -f src/hector_stairs_planner/hector_change_map
+rm -r -f src/hector_stairs_planner/hector_change_layer_msgs
+rm -r -f src/hector_stairs_planner/hector_stairs_planner_disruption_test
+
+rm -r -f src/hector_vision/hector_heat_detection
+
+
 # We build using catkin_tools per default
 #catkin_make_isolated -DCMAKE_BUILD_TYPE=Release
 catkin build -DCMAKE_BUILD_TYPE=Release
