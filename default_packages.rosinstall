@@ -38,7 +38,7 @@
 
 # Stair detection and stairs planner
 - git: {local-name: src/hector_stairs_planner, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_stairs_planner.git', version: stairs_climbing_with_aggregated_scan}
-- git: {local-name: src/hector_stair_traversal_demo, uri: 'https://github.com/tu-darmstadt-ros-pkg/https://github.com/tu-darmstadt-ros-pkg/hector_stair_traversal_demo.git', version: master}
+- git: {local-name: src/hector_stair_traversal_demo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_stair_traversal_demo.git', version: master}
 
 # Unfortunately need moveit from source, otherwise octomap updater consumes extreme CPU, see
 # https://github.com/ros-planning/moveit_ros/issues/563
